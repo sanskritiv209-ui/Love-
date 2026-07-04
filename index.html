@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Someone Special ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ❤️ Heart Rain -->
+<div class="hearts" id="hearts"></div>
+
+<!-- 🎁 Gift Screen -->
+<div id="giftScreen" class="screen">
+
+<div class="gift">🎁</div>
+
+<h1>Hi... ❤️</h1>
+
+<p>Kuchh Kahna Tha Aapse...</p>
+
+<button onclick="openGift()">
+💌 Open This
+</button>
+
+</div>
+
+<!-- 💌 Message Screen -->
+<div id="messageScreen" class="screen" style="display:none;">
+
+<h2 id="typing"></h2>
+
+<!-- 🧸 Teddy Video -->
+<video id="teddy"
+width="250"
+autoplay
+loop
+muted
+playsinline
+style="display:none;border-radius:20px;">
+
+<source src="images/I_want_to_hug_you_____Bubu_Dudu___Milkmoachabear___Cute_couple___Animation(360p).mp4"
+type="video/mp4">
+
+</video>
+
+<br><br>
+
+<button id="nextBtn"
+style="display:none;"
+onclick="nextMessage()">
+
+Next ❤️
+
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
