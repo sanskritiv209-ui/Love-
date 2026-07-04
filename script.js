@@ -1,10 +1,17 @@
 const messages = [
-"🥺 Sunte Ho...",
-"❤️ Are Suno To Sahi...",
 "💌 Kuchh Kahna Tha Aapse...",
 "😔 I Miss You Very Much...",
-"🧸 I Need A Tight Hug... 🤗",
-"❤️ Lastly... I Love You So Much! ❤️"
+"🧸 I Need A Tight Hug...",
+"🥺 And I Want To Feel You...",
+"❤️ Lastly... I Love You So Much!"
+];
+
+const images = [
+"images/1.jpg",
+"images/2.jpg",
+"images/3.jpg",
+"images/4.jpg",
+"images/5.jpg"
 ];
 
 let index = 0;
@@ -26,6 +33,9 @@ function showMessage(){
 
 const typing=document.getElementById("typing");
 const next=document.getElementById("nextBtn");
+const image=document.getElementById("storyImage");
+
+image.src=images[index];
 
 typing.innerHTML="";
 next.style.display="none";
@@ -47,6 +57,8 @@ next.style.display="inline-block";
 }
 
 },70);
+
+}
 
 }
 
